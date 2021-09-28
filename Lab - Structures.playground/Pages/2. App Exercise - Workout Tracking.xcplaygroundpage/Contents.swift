@@ -16,11 +16,15 @@ struct RunningWorkout{
 /*:
  Create a variable instance of `RunningWorkout` called `firstRun` without supplying any arguments. Print out all three properties of `firstRun`. This is a good example of when using default values is appropriate, seeing as all running workouts start with a distance, time, and elevation change of 0.
  */
-var firstRun = RunningWorkout(distance:Double, time: Double, elevation: Double)
+var firstRun = RunningWorkout()
+
+    
 
 /*:
  Now imagine that throughout the course of the run, you go a distance of 2,396 meters in 15.3 minutes, and gain 94 meters of elevation. Update the values of `firstRun`'s properties accordingly. Print a statement about your run using the values of each property.
  */
-firstRun
+firstRun.distance = 2396
+firstRun.elevation = 94
+firstRun.time = 15.3
 
 //: [Previous](@previous)  |  page 2 of 10  |  [Next: Exercise - Memberwise and Custom Initializers](@next)
