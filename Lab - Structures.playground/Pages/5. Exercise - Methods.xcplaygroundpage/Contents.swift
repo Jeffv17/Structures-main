@@ -16,5 +16,9 @@ struct Post {
     var message: String
     var likes: Int
     var numberOfComments: Int
+    
+    mutating func Like(){
+        Like 
+    }
 }
 //: [Previous](@previous)  |  page 5 of 10  |  [Next: App Exercise - Workout Functions](@next)

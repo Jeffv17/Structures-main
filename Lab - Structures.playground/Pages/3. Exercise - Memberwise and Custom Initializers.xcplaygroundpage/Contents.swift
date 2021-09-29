@@ -11,7 +11,7 @@ struct GPS{
 /*:
  Now create a constant instance of `GPS` called `somePlace`, and use the memberwise initializer to set `latitude` to 51.514004, and `longitude` to 0.125226. Print the values of `somePlace`'s properties.
  */
-var somePlace = GPS(latitude: 51.514004, longtitude: 0.125226)
+let somePlace = GPS(latitude: 51.514004, longtitude: 0.125226)
 
 /*:
  In Structs, Instance, and Default Values, you also created a `Book` struct with properties `title`, `author`, `pages`, and `price`. Create this struct again without default values. Give each property the appropriate type. Declare your `favoriteBook` instance and pass in the values of your favorite book using the memberwise initializer. Print a statement about your favorite book using `favoriteBook`'s properties.
